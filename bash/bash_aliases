@@ -1,0 +1,9 @@
+# open a pane per file
+alias "vim"="vim -O"
+
+# git aliases
+alias "gs"="git status"
+
+# other useful tools
+alias check="find . -iname '*~'"
+alias del="find . -iname '*~' -exec rm {} \;"
