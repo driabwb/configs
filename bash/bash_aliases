@@ -1,5 +1,6 @@
 # open a pane per file
 alias "vim"="vim -O"
+alias ":e"="vim"
 
 # git aliases
 alias "gs"="git status"
@@ -7,3 +8,10 @@ alias "gs"="git status"
 # other useful tools
 alias check="find . -iname '*~'"
 alias del="find . -iname '*~' -exec rm {} \;"
+
+# annoyance prevention
+alias sl="ls"
+
+if [ -e ~/.local_aliases ]; then
+  source ~/.local_aliases
+fi
