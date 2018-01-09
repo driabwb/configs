@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'editorconfig/editorconfig-vim'
 
 " Go Dev Plugin
 Plugin 'fatih/vim-go'
@@ -79,6 +80,7 @@ set nocompatible
 
 " Add line numbers
 set number
+set relativenumber
 
 " Always show statusline
 set laststatus=2
