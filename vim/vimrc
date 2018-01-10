@@ -188,3 +188,6 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+" Copy to a secondary buffer
+nnoremap z "ay
+nnoremap m "ap
